@@ -1,4 +1,3 @@
-
 {
   "name": "mamo-tools",
   "private": true,
@@ -17,13 +16,14 @@
   "dependencies": {
     "@capacitor/android": "^5.7.0",
     "@capacitor/core": "^5.7.0",
+    "@google/genai": "^1.41.0",
     "@tensorflow-models/deeplab": "^0.2.2",
     "@tensorflow/tfjs": "^4.15.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "mongodb": "^6.5.0",
     "lucide-react": "^0.344.0",
+    "mongodb": "^6.5.0",
     "multer": "^1.4.5-lts.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
