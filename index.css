@@ -1,0 +1,18 @@
+/* Minimal global styles to ensure app renders correctly */
+:root {
+  --bg: #050505;
+  --text: #fff9f0;
+}
+html,body,#root{
+  height:100%;
+}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family: 'Cairo', sans-serif;
+}
+
+/* Basic utilities used by the app */
+.hidden{display:none}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
