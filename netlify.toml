@@ -2,6 +2,7 @@
   command = "npm ci && npm run build"
   publish = "dist"
 
-[context]
-  # Use this to set environment-specific settings if needed
-  # NODE_VERSION = "18"
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
